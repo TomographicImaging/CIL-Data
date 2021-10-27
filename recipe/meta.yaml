@@ -1,10 +1,11 @@
 package:
   name: cil-data
-  version: 21.0.0
+  version: 21.3.0
 
 build:
   number: 0  
-    
+  noarch: python 
+
 requirements:
 
   build:

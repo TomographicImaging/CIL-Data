@@ -32,7 +32,10 @@ setup(
                                   'peppers.tiff',
                                   'rainbow.png',
                                   'resolution_chart.tiff',
-                                  'shapes.png'
+                                  'shapes.png',
+                                  'sim_volume.nxs',
+                                  'sim_cone_beam.nxs',
+                                  'sim_parallel_beam.nxs'
                                   ])],
 
     # metadata for upload to PyPI
