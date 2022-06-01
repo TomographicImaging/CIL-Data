@@ -35,7 +35,8 @@ setup(
                                   'shapes.png',
                                   'sim_volume.nxs',
                                   'sim_cone_beam.nxs',
-                                  'sim_parallel_beam.nxs'
+                                  'sim_parallel_beam.nxs',
+                                  'headsq.mha'
                                   ])],
 
     # metadata for upload to PyPI
