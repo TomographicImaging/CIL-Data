@@ -6,5 +6,5 @@ The original dataset is available at https://github.com/DiamondLightSource/Savu/
 Here it has been normalised with flat-field and dark-field.
 
 ## headsq.mha
-The file headsq.mha comes from VTK-Data. The original dataset is available at: The original dataset is available at: https://github.com/open-cv/VTKData/tree/master/Data/headsq.
+The file headsq.mha comes from VTK-Data. The original dataset is available at: https://github.com/open-cv/VTKData/tree/master/Data/headsq.
 Please see the VTKData LICENSE.txt file for the associated license.
