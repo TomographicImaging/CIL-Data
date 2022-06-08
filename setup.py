@@ -16,16 +16,16 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from distutils.core import setup
+from setuptools import setup
 import os
 import sys
 
 
-cil_version='21.0.0'
+version='22.0.0'
 
 setup(
     name="cil-data",
-    version=cil_version,
+    version=version,
     data_files = [('share/cil', [ '24737_fd_normalised.nxs',
                                   'boat.tiff',
                                   'camera.png',
@@ -35,7 +35,8 @@ setup(
                                   'shapes.png',
                                   'sim_volume.nxs',
                                   'sim_cone_beam.nxs',
-                                  'sim_parallel_beam.nxs'
+                                  'sim_parallel_beam.nxs',
+                                  'head.mha'
                                   ])],
 
     # metadata for upload to PyPI
