@@ -16,12 +16,12 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from distutils.core import setup
+from setuptools import setup
 import os
 import sys
 
 
-cil_version='21.0.0'
+cil_version='22.0.0'
 
 setup(
     name="cil-data",

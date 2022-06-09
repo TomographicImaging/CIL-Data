@@ -1,2 +1,4 @@
-cd %RECIPE_DIR%\..
-%PYTHON% setup.py install
+xcopy /e "%RECIPE_DIR%\.." "%SRC_DIR%"
+
+pip install .
+if errorlevel 1 exit 1
